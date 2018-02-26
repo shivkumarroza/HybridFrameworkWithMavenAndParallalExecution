@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Expected Page actiTIME - Login is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Expected Page actiTIME - Enter Time-Track is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Expected Page actiTIME - Login is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Expected Page actiTIME - Enter Time-Track is Displayed]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="77168" started-at="2018-02-26T07:59:14Z" finished-at="2018-02-26T08:00:31Z">
+    <groups>
+    </groups>
+    <test name="Chrome" duration-ms="40264" started-at="2018-02-26T07:59:14Z" finished-at="2018-02-26T07:59:54Z">
+      <class name="script.ValidLogin">
+        <test-method status="PASS" signature="openApplication(java.lang.String, java.lang.String)[pri:0, instance:script.ValidLogin@57baeedf]" name="openApplication" is-config="true" duration-ms="24389" started-at="2018-02-26T07:59:14Z" finished-at="2018-02-26T07:59:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10.0.0.7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="testValidLogin()[pri:0, instance:script.ValidLogin@57baeedf]" name="testValidLogin" duration-ms="12749" started-at="2018-02-26T07:59:38Z" finished-at="2018-02-26T07:59:51Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Expected Page actiTIME - Login is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[Expected Page actiTIME - Enter Time-Track is Displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:script.ValidLogin@57baeedf]" name="closeApplication" is-config="true" duration-ms="3088" started-at="2018-02-26T07:59:51Z" finished-at="2018-02-26T07:59:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testValidLogin status=SUCCESS method=ValidLogin.testValidLogin()[pri:0, instance:script.ValidLogin@57baeedf] output=Expected Page actiTIME - Login is Displayed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- script.ValidLogin -->
+    </test> <!-- Chrome -->
+    <test name="FireFox" duration-ms="77168" started-at="2018-02-26T07:59:14Z" finished-at="2018-02-26T08:00:31Z">
+      <class name="script.ValidLogin">
+        <test-method status="PASS" signature="openApplication(java.lang.String, java.lang.String)[pri:0, instance:script.ValidLogin@6fd02e5]" name="openApplication" is-config="true" duration-ms="71944" started-at="2018-02-26T07:59:14Z" finished-at="2018-02-26T08:00:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10.0.0.7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="testValidLogin()[pri:0, instance:script.ValidLogin@6fd02e5]" name="testValidLogin" duration-ms="4847" started-at="2018-02-26T08:00:26Z" finished-at="2018-02-26T08:00:31Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Expected Page actiTIME - Login is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[Expected Page actiTIME - Enter Time-Track is Displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:script.ValidLogin@6fd02e5]" name="closeApplication" is-config="true" duration-ms="341" started-at="2018-02-26T08:00:31Z" finished-at="2018-02-26T08:00:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testValidLogin status=SUCCESS method=ValidLogin.testValidLogin()[pri:0, instance:script.ValidLogin@6fd02e5] output=Expected Page actiTIME - Login is Displayed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- script.ValidLogin -->
+    </test> <!-- FireFox -->
+  </suite> <!-- Suite -->
+</testng-results>

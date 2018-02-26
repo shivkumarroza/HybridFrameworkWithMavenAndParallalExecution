@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">Suite</th></tr>
+<tr><td><a href="#t0">Chrome</a></td><td class="num">2</td><td class="num">0</td><td class="num attn">1</td><td class="num">103,444</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">FireFox</a></td><td class="num">2</td><td class="num">0</td><td class="num attn">1</td><td class="num">109,677</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">4</th><th class="num">0</th><th class="num attn">2</th><th class="num">213,121</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Chrome &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">script.CheckProductVersion</td><td><a href="#m0">testProductVersion</a></td><td rowspan="1">1519632460509</td><td rowspan="1">21604</td></tr><tr><th colspan="4">Chrome &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">script.InvalidLogin</td><td><a href="#m1">testInvalidLogin</a></td><td rowspan="1">1519632537180</td><td rowspan="1">3712</td></tr><tr class="passedodd"><td rowspan="1">script.ValidLogin</td><td><a href="#m2">testValidLogin</a></td><td rowspan="1">1519632506049</td><td rowspan="1">15112</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">FireFox &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">script.CheckProductVersion</td><td><a href="#m3">testProductVersion</a></td><td rowspan="1">1519632471400</td><td rowspan="1">14230</td></tr><tr><th colspan="4">FireFox &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">script.InvalidLogin</td><td><a href="#m4">testInvalidLogin</a></td><td rowspan="1">1519632544473</td><td rowspan="1">4733</td></tr><tr class="passedodd"><td rowspan="1">script.ValidLogin</td><td><a href="#m5">testValidLogin</a></td><td rowspan="1">1519632522437</td><td rowspan="1">3511</td></tr></tbody>
+</table>
+<h2>Chrome</h2><h3 id="m0">script.CheckProductVersion#testProductVersion</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Expected Page actiTIME - Login is Displayed<br/>Expected Page actiTIME - Enter Time-Track is Displayed</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [actiTIME 2017.4] but found [actiTIME 2017 Online]
+	at generic.BasePage.verifyText(BasePage.java:29)
+	at page.EnterTTPage.verifyVersion(EnterTTPage.java:39)
+	at script.CheckProductVersion.testProductVersion(CheckProductVersion.java:34)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">script.InvalidLogin#testInvalidLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">script.ValidLogin#testValidLogin</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Expected Page actiTIME - Enter Time-Track is Displayed</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>FireFox</h2><h3 id="m3">script.CheckProductVersion#testProductVersion</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Expected Page actiTIME - Login is Displayed<br/>Expected Page actiTIME - Enter Time-Track is Displayed</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: Element &lt;div class=&quot;popup_menu_label&quot;&gt; is not clickable at point (1259.5,70.10000610351562) because another element &lt;div id=&quot;preInsertedTransformedMoireId&quot; class=&quot;transformedMoireClass&quot;&gt; obscures it
+Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;
+System info: host: &apos;DESKTOP-2IEME8E&apos;, ip: &apos;10.0.0.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 58.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 4408, moz:profile: C:\Users\Wooplr\AppData\Loc..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, webdriver.remote.sessionid: 9f5a982b-00b0-4fde-a669-7eb...}
+Session ID: 9f5a982b-00b0-4fde-a669-7ebd51e9b8ae
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy8.click(Unknown Source)
+	at page.EnterTTPage.clickHelp(EnterTTPage.java:33)
+	at script.CheckProductVersion.testProductVersion(CheckProductVersion.java:26)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 24 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">script.InvalidLogin#testInvalidLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">script.ValidLogin#testValidLogin</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Expected Page actiTIME - Enter Time-Track is Displayed</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
