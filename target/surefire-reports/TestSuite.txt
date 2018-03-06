@@ -1,22 +1,29 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 18, Failures: 2, Errors: 0, Skipped: 16, Time elapsed: 2.71 sec <<< FAILURE! - in TestSuite
-openApplication(script.CheckProductVersion)  Time elapsed: 2.315 sec  <<< FAILURE!
-org.openqa.selenium.remote.UnreachableBrowserException: 
-Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
-Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
-System info: host: 'DESKTOP-2IEME8E', ip: '10.0.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
-Driver info: driver.version: RemoteWebDriver
-Caused by: java.net.ConnectException: Failed to connect to /10.0.0.7:4444
-Caused by: java.net.ConnectException: Connection refused: connect
+Tests run: 6, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 137.187 sec <<< FAILURE! - in TestSuite
+testProductVersion(script.CheckProductVersion)  Time elapsed: 12.672 sec  <<< FAILURE!
+java.lang.AssertionError: expected [actiTIME 2017.4] but found [actiTIME 2017 Online]
+	at script.CheckProductVersion.testProductVersion(CheckProductVersion.java:34)
 
-openApplication(script.CheckProductVersion)  Time elapsed: 2.318 sec  <<< FAILURE!
-org.openqa.selenium.remote.UnreachableBrowserException: 
-Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
-Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
-System info: host: 'DESKTOP-2IEME8E', ip: '10.0.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
-Driver info: driver.version: RemoteWebDriver
-Caused by: java.net.ConnectException: Failed to connect to /10.0.0.7:4444
-Caused by: java.net.ConnectException: Connection refused: connect
+testInvalidLogin(script.InvalidLogin)  Time elapsed: 14.385 sec  <<< FAILURE!
+org.openqa.selenium.StaleElementReferenceException: 
+The element reference of <span id="errorSpan" class="errormsg"> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'DESKTOP-2IEME8E', ip: '192.168.1.99', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 58.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 1332, moz:profile: C:\Users\Wooplr\AppData\Loc..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, webdriver.remote.sessionid: 2ceba644-9e10-4c70-b074-05f...}
+Session ID: 2ceba644-9e10-4c70-b074-05f9eb7f3f80
+	at script.InvalidLogin.testInvalidLogin(InvalidLogin.java:24)
+
+testProductVersion(script.CheckProductVersion)  Time elapsed: 18.362 sec  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+Element <div class="popup_menu_label"> is not clickable at point (1259.5,70.10000610351562) because another element <div id="preInsertedTransformedMoireId" class="transformedMoireClass"> obscures it
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'DESKTOP-2IEME8E', ip: '192.168.1.99', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 58.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 6888, moz:profile: C:\Users\Wooplr\AppData\Loc..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, webdriver.remote.sessionid: a7c6ee18-118e-4a9e-8326-3cc...}
+Session ID: a7c6ee18-118e-4a9e-8326-3cca52061728
+	at script.CheckProductVersion.testProductVersion(CheckProductVersion.java:26)
 

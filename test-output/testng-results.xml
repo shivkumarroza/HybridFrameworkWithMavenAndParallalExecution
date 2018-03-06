@@ -1,17 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="6074" started-at="2018-02-26T08:24:12Z" finished-at="2018-02-26T08:24:18Z">
+  <suite name="Failed suite [Default suite]" duration-ms="90" started-at="2018-03-06T13:10:18Z" finished-at="2018-03-06T13:10:18Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="6074" started-at="2018-02-26T08:24:12Z" finished-at="2018-02-26T08:24:18Z">
-      <class name="generic.StartSeleniumServer">
-        <test-method status="PASS" signature="startSeleniumServer()[pri:0, instance:generic.StartSeleniumServer@d8355a8]" name="startSeleniumServer" duration-ms="6032" started-at="2018-02-26T08:24:12Z" finished-at="2018-02-26T08:24:18Z">
+    <test name="Default test(failed)" duration-ms="90" started-at="2018-03-06T13:10:18Z" finished-at="2018-03-06T13:10:18Z">
+      <class name="script.ValidLogin">
+        <test-method status="FAIL" signature="openApplication(java.lang.String, java.lang.String)[pri:0, instance:script.ValidLogin@6d4b1c02]" name="openApplication" is-config="true" duration-ms="0" started-at="2018-03-06T13:10:18Z" finished-at="2018-03-06T13:10:18Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'ip' is required by BeforeMethod on method openApplication but has not been marked @Optional or defined
+in C:\Users\Wooplr\git\HybridFrameworkWithMavenAndParallalExecution\test-output\testng-failed.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'ip' is required by BeforeMethod on method openApplication but has not been marked @Optional or defined
+in C:\Users\Wooplr\git\HybridFrameworkWithMavenAndParallalExecution\test-output\testng-failed.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:520)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- startSeleniumServer -->
-      </class> <!-- generic.StartSeleniumServer -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- openApplication -->
+        <test-method status="SKIP" signature="testValidLogin()[pri:0, instance:script.ValidLogin@6d4b1c02]" name="testValidLogin" duration-ms="0" started-at="2018-03-06T13:10:18Z" finished-at="2018-03-06T13:10:18Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'ip' is required by BeforeMethod on method openApplication but has not been marked @Optional or defined
+in C:\Users\Wooplr\git\HybridFrameworkWithMavenAndParallalExecution\test-output\testng-failed.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'ip' is required by BeforeMethod on method openApplication but has not been marked @Optional or defined
+in C:\Users\Wooplr\git\HybridFrameworkWithMavenAndParallalExecution\test-output\testng-failed.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:520)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+        <test-method status="SKIP" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:script.ValidLogin@6d4b1c02]" name="closeApplication" is-config="true" duration-ms="0" started-at="2018-03-06T13:10:18Z" finished-at="2018-03-06T13:10:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- script.ValidLogin -->
+    </test> <!-- Default test(failed) -->
+  </suite> <!-- Failed suite [Default suite] -->
 </testng-results>

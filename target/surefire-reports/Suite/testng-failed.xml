@@ -1,35 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite verbose="0" name="Failed suite [Suite]" parallel="tests">
-  <test thread-count="5" verbose="0" name="FireFox(failed)" parallel="tests">
-    <parameter name="ip" value="10.0.0.7"/>
-    <parameter name="browser" value="firefox"/>
-    <classes>
-      <class name="script.CheckProductVersion">
-        <methods>
-          <include name="testProductVersion"/>
-          <include name="closeApplication"/>
-          <include name="openApplication"/>
-        </methods>
-      </class> <!-- script.CheckProductVersion -->
-      <class name="script.ValidLogin">
-        <methods>
-          <include name="testValidLogin"/>
-          <include name="closeApplication"/>
-          <include name="openApplication"/>
-        </methods>
-      </class> <!-- script.ValidLogin -->
-      <class name="script.InvalidLogin">
-        <methods>
-          <include name="testInvalidLogin"/>
-          <include name="closeApplication"/>
-          <include name="openApplication"/>
-        </methods>
-      </class> <!-- script.InvalidLogin -->
-    </classes>
-  </test> <!-- FireFox(failed) -->
-  <test thread-count="5" verbose="0" name="Chrome(failed)" parallel="tests">
-    <parameter name="ip" value="10.0.0.7"/>
+<suite verbose="0" name="Failed suite [Suite]" parallel="classes">
+  <test thread-count="5" verbose="0" name="Chrome(failed)" parallel="classes">
+    <parameter name="ip" value="192.168.1.99"/>
     <parameter name="browser" value="chrome"/>
     <classes>
       <class name="script.CheckProductVersion">
@@ -39,13 +12,12 @@
           <include name="openApplication"/>
         </methods>
       </class> <!-- script.CheckProductVersion -->
-      <class name="script.ValidLogin">
-        <methods>
-          <include name="testValidLogin"/>
-          <include name="closeApplication"/>
-          <include name="openApplication"/>
-        </methods>
-      </class> <!-- script.ValidLogin -->
+    </classes>
+  </test> <!-- Chrome(failed) -->
+  <test thread-count="5" verbose="0" name="Firefox(failed)" parallel="classes">
+    <parameter name="ip" value="192.168.1.99"/>
+    <parameter name="browser" value="firefox"/>
+    <classes>
       <class name="script.InvalidLogin">
         <methods>
           <include name="testInvalidLogin"/>
@@ -53,6 +25,13 @@
           <include name="openApplication"/>
         </methods>
       </class> <!-- script.InvalidLogin -->
+      <class name="script.CheckProductVersion">
+        <methods>
+          <include name="testProductVersion"/>
+          <include name="closeApplication"/>
+          <include name="openApplication"/>
+        </methods>
+      </class> <!-- script.CheckProductVersion -->
     </classes>
-  </test> <!-- Chrome(failed) -->
+  </test> <!-- Firefox(failed) -->
 </suite> <!-- Failed suite [Suite] -->

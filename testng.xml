@@ -1,16 +1,16 @@
-<suite name="Suite" parallel="tests">
+<suite name="Suite" parallel="classes">
   <test name="Chrome">
-  <parameter name="ip" value="10.0.0.7"/>
+  <parameter name="ip" value="192.168.1.99"/>
   <parameter name="browser" value="chrome"></parameter>
     <packages>
     <package name="script"/>
     </packages>
   </test>
-  <test name="FireFox">
-  <parameter name="ip" value="10.0.0.7"/>
+  <test name="Firefox">
+  <parameter name="ip" value="192.168.1.99"/>
   <parameter name="browser" value="firefox"></parameter>
     <packages>
     <package name="script"/>
     </packages>
-  </test> 
+  </test>
 </suite> 

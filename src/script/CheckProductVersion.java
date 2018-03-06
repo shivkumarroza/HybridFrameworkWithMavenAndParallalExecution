@@ -8,7 +8,7 @@ import page.EnterTTPage;
 import page.LoginPage;
 
 public class CheckProductVersion extends BaseTest {
-	@Test(priority=3)
+	@Test
 	public void testProductVersion() {
 		LoginPage l= new LoginPage(driver);
 		l.verifyPageIsDisplayed(driver, Excel.getData(XL_PATH, "CheckProductVersion", 1, 0));

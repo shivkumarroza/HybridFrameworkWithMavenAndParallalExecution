@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="2.71" tests="18" errors="0" skipped="16" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="137.187" tests="6" errors="0" skipped="0" failures="3">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\bin"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_144\bin"/>
     <property name="java.vm.version" value="25.144-b01"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="H:\AutoPractice\Auto1\HybridFrameworkWithMavenAndParallalExecution"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Wooplr\git\HybridFrameworkWithMavenAndParallalExecution"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,19 +16,19 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="H:\AutoPractice\Auto1\HybridFrameworkWithMavenAndParallalExecution"/>
+    <property name="user.dir" value="C:\Users\Wooplr\git\HybridFrameworkWithMavenAndParallalExecution"/>
     <property name="java.runtime.version" value="1.8.0_144-b01"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\endorsed"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_144\lib\endorsed"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.io.tmpdir" value="C:\Users\Wooplr\AppData\Local\Temp\"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="H:\AutoPractice\Auto1\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf6998904525311846474.tmp"/>
+    <property name="classworlds.conf" value="G:\Practice_Workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf3977405781337765075.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_144\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_144/bin/server;C:/Program Files/Java/jre1.8.0_144/bin;C:/Program Files/Java/jre1.8.0_144/lib/amd64;C:\oracle\product\10.2.0\db_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;c:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Program Files\Android-sdk\platform-tools;C:\Program Files\Android-sdk\tools;C:\Program Files\Android-sdk\tools\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;C:\Windows\System32\cmd.exe;G:\Selenium\Jenkins setup\apache-tomcat-7.0.85-windows-x64\apache-tomcat-7.0.85\bin;C:\Users\Wooplr\AppData\Local\Microsoft\WindowsApps;C:\Users\Wooplr\AppData\Roaming\npm;;G:\Q Spiders\Qspider Softwares\eclipse\eclipse-java-oxygen-1a-win32-x86_64\eclipse;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_144\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_144/bin/server;C:/Program Files/Java/jre1.8.0_144/bin;C:/Program Files/Java/jre1.8.0_144/lib/amd64;C:\oracle\product\10.2.0\db_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;c:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Program Files\Android-sdk\platform-tools;C:\Program Files\Android-sdk\tools;C:\Program Files\Android-sdk\tools\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;C:\Windows\System32\cmd.exe;G:\Selenium\Jenkins setup\apache-tomcat-7.0.85-windows-x64\apache-tomcat-7.0.85\bin;C:\Users\Wooplr\Desktop\node;C:\Users\Wooplr\AppData\Local\Microsoft\WindowsApps;C:\Users\Wooplr\AppData\Roaming\npm;;G:\Q Spiders\Qspider Softwares\eclipse\eclipse-java-oxygen-1a-win32-x86_64\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -42,17 +42,17 @@
     <property name="java.class.path" value="G:\Q Spiders\Qspider Softwares\eclipse\eclipse-java-oxygen-1a-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_1.8.2.20171007-0216\jars\plexus-classworlds-2.5.2.jar"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_144\jre"/>
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_144"/>
     <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.version" value="1.8.0_144"/>
-    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
-    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_144\jre\classes"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_144\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_144\lib\resources.jar;C:\Program Files\Java\jre1.8.0_144\lib\rt.jar;C:\Program Files\Java\jre1.8.0_144\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_144\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_144\lib\jce.jar;C:\Program Files\Java\jre1.8.0_144\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_144\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_144\classes"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="H:\AutoPractice\Auto1\HybridFrameworkWithMavenAndParallalExecution\EMBEDDED"/>
+    <property name="maven.home" value="C:\Users\Wooplr\git\HybridFrameworkWithMavenAndParallalExecution\EMBEDDED"/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -60,74 +60,59 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="openApplication" classname="script.CheckProductVersion" time="2.315">
-    <failure message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.&#10;Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;&#10;System info: host: &apos;DESKTOP-2IEME8E&apos;, ip: &apos;10.0.0.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.remote.UnreachableBrowserException">org.openqa.selenium.remote.UnreachableBrowserException: 
-Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
-Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
-System info: host: 'DESKTOP-2IEME8E', ip: '10.0.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
-Driver info: driver.version: RemoteWebDriver
-Caused by: java.net.ConnectException: Failed to connect to /10.0.0.7:4444
-Caused by: java.net.ConnectException: Connection refused: connect
+  <testcase name="testProductVersion" classname="script.CheckProductVersion" time="12.672">
+    <failure message="expected [actiTIME 2017.4] but found [actiTIME 2017 Online]" type="java.lang.AssertionError">java.lang.AssertionError: expected [actiTIME 2017.4] but found [actiTIME 2017 Online]
+	at script.CheckProductVersion.testProductVersion(CheckProductVersion.java:34)
 </failure>
     <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
+Expected Page actiTIME - Login is Displayed
+Expected Page actiTIME - Enter Time-Track is Displayed
+]]></system-out>
+    <system-err><![CDATA[Mar 06, 2018 6:33:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Mar 06, 2018 6:33:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Mar 06, 2018 6:33:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="testProductVersion" classname="script.CheckProductVersion" time="18.362">
+    <failure message="Element &lt;div class=&quot;popup_menu_label&quot;&gt; is not clickable at point (1259.5,70.10000610351562) because another element &lt;div id=&quot;preInsertedTransformedMoireId&quot; class=&quot;transformedMoireClass&quot;&gt; obscures it&#10;Build info: version: &apos;3.10.0&apos;, revision: &apos;176b4a9&apos;, time: &apos;2018-03-02T19:03:16.397Z&apos;&#10;System info: host: &apos;DESKTOP-2IEME8E&apos;, ip: &apos;192.168.1.99&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 58.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 6888, moz:profile: C:\Users\Wooplr\AppData\Loc..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, webdriver.remote.sessionid: a7c6ee18-118e-4a9e-8326-3cc...}&#10;Session ID: a7c6ee18-118e-4a9e-8326-3cca52061728" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+Element <div class="popup_menu_label"> is not clickable at point (1259.5,70.10000610351562) because another element <div id="preInsertedTransformedMoireId" class="transformedMoireClass"> obscures it
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'DESKTOP-2IEME8E', ip: '192.168.1.99', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 58.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 6888, moz:profile: C:\Users\Wooplr\AppData\Loc..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, webdriver.remote.sessionid: a7c6ee18-118e-4a9e-8326-3cc...}
+Session ID: a7c6ee18-118e-4a9e-8326-3cca52061728
+	at script.CheckProductVersion.testProductVersion(CheckProductVersion.java:26)
+]]></failure>
+    <system-out><![CDATA[Expected Page actiTIME - Enter Time-Track is Displayed
 ]]></system-out>
   </testcase>
-  <testcase name="openApplication" classname="script.CheckProductVersion" time="2.318">
-    <failure message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.&#10;Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;&#10;System info: host: &apos;DESKTOP-2IEME8E&apos;, ip: &apos;10.0.0.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.remote.UnreachableBrowserException">org.openqa.selenium.remote.UnreachableBrowserException: 
-Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
-Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
-System info: host: 'DESKTOP-2IEME8E', ip: '10.0.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
-Driver info: driver.version: RemoteWebDriver
-Caused by: java.net.ConnectException: Failed to connect to /10.0.0.7:4444
-Caused by: java.net.ConnectException: Connection refused: connect
-</failure>
+  <testcase name="testInvalidLogin" classname="script.InvalidLogin" time="4.345"/>
+  <testcase name="testInvalidLogin" classname="script.InvalidLogin" time="14.385">
+    <failure message="The element reference of &lt;span id=&quot;errorSpan&quot; class=&quot;errormsg&quot;&gt; is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html&#10;Build info: version: &apos;3.10.0&apos;, revision: &apos;176b4a9&apos;, time: &apos;2018-03-02T19:03:16.397Z&apos;&#10;System info: host: &apos;DESKTOP-2IEME8E&apos;, ip: &apos;192.168.1.99&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 58.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 1332, moz:profile: C:\Users\Wooplr\AppData\Loc..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, webdriver.remote.sessionid: 2ceba644-9e10-4c70-b074-05f...}&#10;Session ID: 2ceba644-9e10-4c70-b074-05f9eb7f3f80" type="org.openqa.selenium.StaleElementReferenceException"><![CDATA[org.openqa.selenium.StaleElementReferenceException: 
+The element reference of <span id="errorSpan" class="errormsg"> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'DESKTOP-2IEME8E', ip: '192.168.1.99', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 58.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 1332, moz:profile: C:\Users\Wooplr\AppData\Loc..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, webdriver.remote.sessionid: 2ceba644-9e10-4c70-b074-05f...}
+Session ID: 2ceba644-9e10-4c70-b074-05f9eb7f3f80
+	at script.InvalidLogin.testInvalidLogin(InvalidLogin.java:24)
+]]></failure>
+    <system-out><![CDATA[Expected Page actiTIME - Login is Displayed
+]]></system-out>
+    <system-err><![CDATA[Mar 06, 2018 6:34:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Mar 06, 2018 6:34:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Mar 06, 2018 6:34:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Mar 06, 2018 6:35:09 PM org.openqa.selenium.remote.ErrorCodes toStatus
+INFO: HTTP Status: '400' -> incorrect JSON status mapping for 'stale element reference' (404 expected)
+]]></system-err>
   </testcase>
-  <testcase name="testProductVersion" classname="script.CheckProductVersion" time="0">
-    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.&#10;Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;&#10;System info: host: &apos;DESKTOP-2IEME8E&apos;, ip: &apos;10.0.0.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
-  </testcase>
-  <testcase name="testProductVersion" classname="script.CheckProductVersion" time="0">
-    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.&#10;Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;&#10;System info: host: &apos;DESKTOP-2IEME8E&apos;, ip: &apos;10.0.0.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
-  </testcase>
-  <testcase name="closeApplication" classname="script.CheckProductVersion" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="closeApplication" classname="script.CheckProductVersion" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="openApplication" classname="script.ValidLogin" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="openApplication" classname="script.ValidLogin" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="testValidLogin" classname="script.ValidLogin" time="0">
-    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.&#10;Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;&#10;System info: host: &apos;DESKTOP-2IEME8E&apos;, ip: &apos;10.0.0.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
-  </testcase>
-  <testcase name="testValidLogin" classname="script.ValidLogin" time="0">
-    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.&#10;Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;&#10;System info: host: &apos;DESKTOP-2IEME8E&apos;, ip: &apos;10.0.0.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
-  </testcase>
-  <testcase name="closeApplication" classname="script.ValidLogin" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="closeApplication" classname="script.ValidLogin" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="openApplication" classname="script.InvalidLogin" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="openApplication" classname="script.InvalidLogin" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="testInvalidLogin" classname="script.InvalidLogin" time="0">
-    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.&#10;Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;&#10;System info: host: &apos;DESKTOP-2IEME8E&apos;, ip: &apos;10.0.0.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
-  </testcase>
-  <testcase name="testInvalidLogin" classname="script.InvalidLogin" time="0">
-    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.&#10;Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;&#10;System info: host: &apos;DESKTOP-2IEME8E&apos;, ip: &apos;10.0.0.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
-  </testcase>
-  <testcase name="closeApplication" classname="script.InvalidLogin" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="closeApplication" classname="script.InvalidLogin" time="0">
-    <skipped/>
-  </testcase>
+  <testcase name="testValidLogin" classname="script.ValidLogin" time="6.477"/>
+  <testcase name="testValidLogin" classname="script.ValidLogin" time="14.437"/>
 </testsuite>
